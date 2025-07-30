@@ -8,14 +8,14 @@ A simple FastAPI application that implements JWT authentication and **Role-Based
 ##  Project Structure
 
     fastapi-jwt-api/
-    ├─ main.py # Application entry point
-    ├─ models.py # SQLModel data models and schemas
-    ├─ database.py # Async database setup and session handling
-    ├─ auth.py # Authentication logic, JWT handling, password hashing
-    ├─ project_routes.py # Project-related routes (CRUD, RBAC protected)
-    ├─ requirements.txt # Python dependencies
-    ├─ secretkey.py # Generate the secretkey
-    └─ README.md # Project documentation
+    ├─ main.py             # Application entry point
+    ├─ models.py           # SQLModel data models and schemas
+    ├─ database.py         # Async database setup and session handling
+    ├─ auth.py             # Authentication logic, JWT handling, password hashing
+    ├─ project_routes.py   # Project-related routes (CRUD, RBAC protected)
+    ├─ requirements.txt    # Python dependencies
+    ├─ secretkey.py        # Generate the secretkey
+    └─ README.md           # Project documentation
 
 ---
 
