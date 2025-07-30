@@ -1,5 +1,5 @@
 
-# FastAPI JWT RBAC API
+# FastAPI JWT RBAC
 
 A simple FastAPI application that implements JWT authentication and **Role-Based Access Control (RBAC)**. This project allows you to register users, log in with JWT tokens, and restrict access to certain endpoints based on user roles (e.g., `admin`, `user`).
 
@@ -7,7 +7,7 @@ A simple FastAPI application that implements JWT authentication and **Role-Based
 
 ##  Project Structure
 
-    fastapi-jwt-api/
+    fastapi-jwt-rbac/
     ├─ main.py             # Application entry point
     ├─ models.py           # SQLModel data models and schemas
     ├─ database.py         # Async database setup and session handling
@@ -21,30 +21,30 @@ A simple FastAPI application that implements JWT authentication and **Role-Based
 
 ## Features
 
--- JWT Authentication :
-Secure token-based authentication using python-jose to issue and verify JWTs.
+### JWT Authentication :
+-- Secure token-based authentication using python-jose to issue and verify JWTs.
 
--- Password Hashing :
-Passwords are securely hashed using passlib[bcrypt] before being stored in the database.
+### Password Hashing :
+-- Passwords are securely hashed using passlib[bcrypt] before being stored in the database.
 
--- Role-Based Access Control (RBAC) :
-Two user roles are supported:
+### Role-Based Access Control (RBAC) :
+-- Two user roles are supported:
 
   admin: Full access to all project operations (create, update, delete).
 
   user: Can only view project listings.
 
--- Protected Endpoints with Dependency Injection :
-Uses FastAPI's Depends(...) to restrict access based on authentication and user role.
+### Protected Endpoints with Dependency Injection :
+-- Uses FastAPI's Depends(...) to restrict access based on authentication and user role.
 
--- Asynchronous ORM with SQLModel + SQLite :
-Utilizes SQLModel with async support and SQLite (easy to switch to PostgreSQL or others).
+### Asynchronous ORM with SQLModel + SQLite :
+-- Utilizes SQLModel with async support and SQLite (easy to switch to PostgreSQL or others).
 
--- CORS (Cross-Origin Resource Sharing) :
-CORS enabled via FastAPI middleware for frontend/backend integration.
+### CORS (Cross-Origin Resource Sharing) :
+-- CORS enabled via FastAPI middleware for frontend/backend integration.
 
--- Interactive API Documentation :
-Built-in Swagger UI and ReDoc, with full Bearer Token authentication support in the docs.
+### Interactive API Documentation :
+-- Built-in Swagger UI and ReDoc, with full Bearer Token authentication support in the docs.
 
 ---
 
