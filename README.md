@@ -104,3 +104,5 @@ Use the token as a Bearer Token in Authorization header to access protected endp
 ```bash
 Authorization: Bearer <your_token_here>
 ```
+### 6.  Basic Link (clean and simple)
+Demo video : https://drive.google.com/file/d/1ZG8bAJOG6oG9xh2Y_1nhGKrEbZLmort1/view?usp=sharing 
