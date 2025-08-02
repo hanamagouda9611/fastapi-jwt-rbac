@@ -75,7 +75,7 @@ A simple FastAPI application that implements JWT authentication and **Role-Based
 
 ```bash
 git clone https://github.com/hanamagouda9611/fastapi-jwt-rbac.git
-cd fastapi-jwt-api
+cd fastapi-jwt-rbac
 ```
 
 ### 2. Install dependencies
